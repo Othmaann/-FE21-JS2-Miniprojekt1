@@ -16,6 +16,8 @@ let userScore,
     computerScore,
     tiedScore;
 
+    const url = "https://highscore-482ef-default-rtdb.europe-west1.firebasedatabase.app/Highscore.json";
+
 // namn input
 rpsName.addEventListener("click", startgame);
 rpsRock.addEventListener("click", function () {
